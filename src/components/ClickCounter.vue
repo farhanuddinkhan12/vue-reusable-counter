@@ -10,7 +10,7 @@
         name: 'ClickCounter',
 
         setup(){
-            const {count, incrementCount} = useCounter(100, 10);
+            const {count, incrementCount} = useCounter();
 
             return {
                 count, 
